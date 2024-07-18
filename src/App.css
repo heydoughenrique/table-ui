@@ -1,0 +1,87 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.app {
+  padding: 20px;
+}
+
+/* Table styles */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-row {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.cell {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+}
+
+.column-drag {
+  width: 40px;
+}
+
+.column-expand {
+  width: 40px;
+}
+
+.column-category {
+  flex: 2;
+}
+
+/* Category styles */
+.category {
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Month group styles */
+.month-group {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.month-header {
+  background-color: #f0f0f0;
+  padding: 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.month-rows {
+  display: flex;
+  flex-direction: column;
+}
+
+.month-row {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.month-cell {
+  flex: 1;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Dragging styles */
+.opacity-50 {
+  opacity: 0.5;
+}
