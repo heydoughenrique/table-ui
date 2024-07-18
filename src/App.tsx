@@ -39,7 +39,7 @@ const App: React.FC = () => {
 
   return (
     <DndProvider backend={HTML5Backend}>
-      <h1>hello</h1>
+      <h1>uhuuu 6h28</h1>
       <div className="App">
         <TableComponent 
           rows={rows} 
